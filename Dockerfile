@@ -4,7 +4,7 @@ FROM jenkins/jnlp-slave:3.29-1
 USER root
 
 # Assign jenkins user to the docker group
-RUN groupadd -g 995 docker & usermod -a -G docker jenkins
+RUN groupadd -g 995 docker && usermod -a -G docker jenkins
 
 # Install the latest Docker CE binaries
 RUN apt-get update\
