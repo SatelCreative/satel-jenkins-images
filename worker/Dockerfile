@@ -1,4 +1,4 @@
-FROM jenkins/jnlp-slave:3.29-1
+FROM jenkins/jnlp-slave:4.9-1
 
 # Root is required to modify uid
 USER root

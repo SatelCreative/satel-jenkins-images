@@ -3,7 +3,7 @@ name: Build worker image
 on:
   # run it on push when a tag is released
   push:
-     tags:
+    tags:
       - "v*"
 
 jobs:
@@ -47,5 +47,4 @@ jobs:
           # Note: tags has to be all lower-case
           tags: |
               satel/jenkins-worker:${{env.RELEASE_VERSION}}
-          # build on feature branches, push only on main branch
           push: true
