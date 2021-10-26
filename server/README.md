@@ -1,2 +1,2 @@
-# satel-jenkins-manager
-Image for jenkins manager with docker installed
+# satel-jenkins-server
+Image for jenkins server with docker installed
