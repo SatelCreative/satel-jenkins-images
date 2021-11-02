@@ -14,7 +14,7 @@ RUN apt-get update\
     && add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") $(lsb_release -cs) stable"\
     && apt-get update\
     && apt-get -y install docker-ce python3-pip\
-    && pip3 install docker-compose\
+    && apt-get -y install docker-compose\
     && curl -L https://github.com/docker/machine/releases/download/v0.14.0/docker-machine-`uname -s`-`uname -m` >/usr/local/bin/docker-machine\
     && chmod +x /usr/local/bin/docker-machine
 
