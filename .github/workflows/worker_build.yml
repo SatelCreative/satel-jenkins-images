@@ -5,8 +5,6 @@ on:
   push:
     tags:
       - "*"
-    branches:
-      - "**"  
 
 jobs:
   # define job to build and publish docker image
