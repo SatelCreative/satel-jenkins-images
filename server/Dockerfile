@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.336
+FROM jenkins/jenkins:2.343
 
 # Root is required to modify uid
 USER root
