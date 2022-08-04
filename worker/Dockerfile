@@ -1,4 +1,4 @@
-FROM jenkins/jnlp-slave:4.9-1
+FROM jenkins/inbound-agent:4.13-2
 
 # Root is required to modify uid
 USER root
