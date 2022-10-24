@@ -1,4 +1,4 @@
-FROM jenkins/inbound-agent:4.13-2
+FROM jenkins/inbound-agent:4.13.3-1
 
 # Root is required to modify uid
 USER root
